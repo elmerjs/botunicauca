@@ -1,4 +1,5 @@
 #ASISTENTE VIRTUAL UNICAUCA
+#trajando en git
 from chatterbot import ChatBot #se importa la librería del chatbot
 from chatterbot import comparisons, response_selection #importamos la libreria de tipo ode comparación y respuesta
 
