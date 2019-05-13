@@ -7,7 +7,7 @@ chatbot = ChatBot(
     "Experto_unicauca", 
 
     storage_adapter='chatterbot.storage.MongoDatabaseAdapter', 
-    database_uri='mongodb://localhost:27017/chatterbot_unicauca', #utilizamos una base de datos, en este caso mongodb para guardar la documentación de preguntas frecuentes
+    #database_uri='mongodb://localhost:27017/chatterbot_unicauca', 
     input_adapter="chatterbot.input.TerminalAdapter", #formato de entrada del bot
     output_adapter="chatterbot.output.OutputAdapter",#formato de salida del bot
     output_format="text",
@@ -20,7 +20,7 @@ chatbot = ChatBot(
         {
             'import_path': 'chatterbot.logic.BestMatch',
             'default_response': 'Disculpa, no te he entendido bien,  solo soy experto en Unicauca  Puedes ser más específico',
-            'maximum_similarity_threshold': 0.50 #si no cumple con esta medida de reconocimeinto nos dara una respuesta por defecto
+            'maximum_similarity_threshold': 0.89 #si no cumple con esta medida de reconocimeinto nos dara una respuesta por defecto
         },
         {
             'import_path': 'chatterbot.logic.SpecificResponseAdapter', #respuesta a una pregunta específica.
@@ -28,7 +28,7 @@ chatbot = ChatBot(
             'output_text': 'Puedes saber acerca de unicauca ahora en: http://portal.unicauca.edu.co/versionP/node/18445'
         },
     ],
-    
+    database_uri='mongodb://localhost:27017/chatterbot_unicauca',#utilizamos una base de datos, en este caso mongodb para guardar la documentación de preguntas frecuentes
     preprocessors=[
         'chatterbot.preprocessors.clean_whitespace' #limpia los espacios entre letras
     ],
@@ -36,8 +36,10 @@ chatbot = ChatBot(
     read_only=True, #por ahora no se dejará que aprenda, para efectos de prueba.
 )
 DEFAULT_SESSION_ID = 1#chatbot.default_session.id
+#l entrenamos
+from chatterbot.trainers import ListTrainer
+trainer = ListTrainer(chatbot)
 from chatterbot.trainers import ChatterBotCorpusTrainer
-
 trainer = ChatterBotCorpusTrainer(chatbot) #entrenamiento del bot
 trainer.train("./univp_ES.yml") # tomamos una base de datos que contiene la información  de la U
 
