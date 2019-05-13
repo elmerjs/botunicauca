@@ -35,7 +35,7 @@ chatbot = ChatBot(
     
     read_only=True, #por ahora no se dejará que aprenda, para efectos de prueba.
 )
-DEFAULT_SESSION_ID = chatbot.default_session.id
+DEFAULT_SESSION_ID = 1#chatbot.default_session.id
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 trainer = ChatterBotCorpusTrainer(chatbot) #entrenamiento del bot

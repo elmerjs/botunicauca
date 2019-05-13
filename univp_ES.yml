@@ -10,7 +10,7 @@ conversations:
   - Usted puede ver la hora en la cual puede realizar su matrícula ingresando a SIMCA. Igualmente se enviará un mensaje a su cuenta de correo electrónico institucional con el horario asignado. Verifique por favor el estado de la capacidad de su correo y elimine los correos innecesarios; de lo contrario, no recibirá la notificación
 - - ¿si no realizo matrícula en el horario asignado?
   - Recuerde que la asignación del turno le reconoce el privilegio de acceso durante una hora aproximadamente. Si por alguna razón usted no hace su registro de matrícula en la fecha y hora asignada, tendrá hasta las 6:00 p.m. del día Domingo 04 Febrero para llevar a cabo este proceso..
-  - ¿i tengo alguna deuda financiera con Unicauca?
+- - ¿si tengo alguna deuda financiera con Unicauca?
   - No. El sistema ha recibido de las distintas dependencias universitarias el reporte de las deudas registradas a la fecha y ante ello, siguiendo lo preceptuado en los acuerdos vigentes, los estudiantes reportados no podrán adelantar la matrícula académica hasta tanto hayan obtenido el paz y salvo respectivo
 - - ¿obtener el paz y salvo?
   - usted puede obtener el paz y salvo dirigiéndose a cualquiera de las siguientes dependencias Deuda con las bibliotecas en la División de Bibliotecas de Unicauca. (edificio de la Facultad de Ciencias Naturales, Exactas y de la Educación)
@@ -47,7 +47,7 @@ conversations:
 - - ¿la universida tiene certificación de calidad?
   - si, actualmente esta certificada por iso 9001, y sus programas 100% alta calidad. 
 - - ¿que programas académicos hay?
-  - la universidad cuenta con 7 decanaturas, y 30 programas de pregrado, 10 de posgrados, pregunta por uno en especial?. 
+  - la universidad cuenta con 7 decanaturas, y 30 programas de pregrado, 10 de posgrados pregunta por uno en especial?. 
 - - ¿quiero estudiar un pregrado, que debo hacer para ingresar?
   - Lo invitamos a consultar directamente la oferta de programas de pregrado presencial y toda la información necesaria para presentarse al proceso de admisión en la página principal del grupo de Admisiones, Registro y Control académico, en la sección aspirantes – aspirantes de pregrado, allí podrá conocer cada uno de los pasos necesarios.. 
 - - ¿Cuánto cuesta la matrícula en la Universidad?
@@ -251,6 +251,7 @@ conversations:
 - - Geografía 
   - Si, cuenta con el programa. El programa de Geografía del Desarrollo  Regional y Ambiental fue creado mediante la Resolución 037 de septiembre 17 de 1996, expedida por el Consejo Superior de  la Universidad del Cauca, Código SNIES 4493 y registro ante el ICFES 11049103301900111100; con Registro Calificado Resolución 2354 del 10 de mayo de 2007 de conformidad con su naturaleza universitaria, nivel profesional, modalidad presencial y otorga el título de Geógrafo (a).
 - - Geotecnologia
+  - si, enproceso de recreaditación.
 - - Enfermería
 - - Historia
   - Si, cuenta con el programa. El Programa de Historia pertenece a la Facultad de Ciencias Humanas y Sociales de la Universidad del Cauca y fue creado mediante Acuerdo 010 del 20 de marzo de 2001, expedido por el Consejo Superior
@@ -311,7 +312,9 @@ conversations:
 - - Turismo
   - Si, cuenta con el programa
 - - Tecnología en Telemática-Popayán
-  - Si, cuenta con el programa. en proceso de recreaditación- - tiene el programa de Odontología?
+  - Si, cuenta con el programa. en proceso de recreaditación
+- - Odontología?
+  - la universidad del Cauca no cuenta con ese programa.
 - - hay psicología?
   - la universidad del Cauca no cuenta con ese programa.
 - - ¿dónde está ubicada la secretaría General?
@@ -324,3 +327,8 @@ conversations:
   - debe solicitar un paz y salvo financiero y pasar un oficio de cancelación a la decanatura,  siempre y cuando no tenga materias en cero.
 - - ¿es difícil ingresar?
   - la universidad del cauca tiene una gran demanda a nivel nacional, y del total de los inscritos solo ingresa un 10% de la población.
+- - ¿quiero averiguar por un pago?
+  - cual es su número de identificación?.
+- - '76320287'
+  - tiene un cheque por reclamar por $1.000.000. por concepto de servicios personales mes de abri 2018, por favor acercarse a la división financiera.
+  
